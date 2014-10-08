@@ -98,7 +98,7 @@ img {
 display: block;
 max-height:100%;
 max-width: 80%;
-
+float:left;
 
 }
 
@@ -121,6 +121,42 @@ margin-top: 2em;
 margin-bottom: 4em;
 }
 
+.fancy {font-family: 'Great Vibes', cursive;
+
+}
+
+#bracketed {  
+              border-top:2px solid black;  
+              border-bottom: 2px solid black;
+            font-size: 1.3em;
+            line-height: 1.3em;
+text-align: center;
+          }
+
+#box {
+font-family: 'Carrois Gothic SC', sans-serif;
+font-size: 1.3em;
+line-height: 1.4em;
+}
+
+.contact{display: inline-block;  border: 1px solid;
+padding: 1.25rem 1.6875rem;
+font-size: 1.3em;
+line-height: 1.4em;
+max-height:100%;
+max-width: 80%;
+
+
+}
+
+.contact:hover{
+
+background-color: black;
+color:white;
+border-color: black;
+ font-size: 1.3em;
+line-height: 1.4em;
+}
 
 
 

@@ -12,6 +12,7 @@
 
 			<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
 			<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/textrotator.js"></script>
 
 
 </head>
@@ -19,7 +20,7 @@
 
 
 
-<body>
+<body  onload="rotateEvery(1)">
       <nav class="navbar navbar-default  navbar-top" role="navigation">
    
 
@@ -34,6 +35,7 @@
         <p>Joshua Darlington</p>
         <p>XD</p>
         
+
       </div>
     </div>
 
@@ -58,7 +60,8 @@
     <section class="col-md-5 col-sm-12">
 <img  alt="Joshua Darlington Headshot" src="Images/Joshua-Darlington-Headshot.jpg" />
 
- 
+ <span class='contact'><img  alt="phone number" src="Images/PHONO.png" />310.570.8174</span>
+ <span class='contact'><img  alt="email address" src="Images/MAILS.png" />joshua_darlington@yahoo.com</span>
     </section>
     <div class="col-md-1 col-sm-0">
 <p> </p>
@@ -122,18 +125,16 @@
 
   <section class="col-md-5 col-sm-12">
 <h2>I am</h2>
+<div id='bracketed'>User centric <span class='fancy'> & </span>Tech agnostic </div>   <br>
 
-<p>Passionate about design and making beautiful and emotional experiences.  
-<ul>
-    <li>User centric</li>
-    <li>Tech agnostic</li>
-    <li>A functionality first design fundamentalist</li></ul>
+<ul><li>Passionate about developing creative and original design concepts.  </li>
+  <li>Passionate about making beautiful and emotional experiences. </li>
+<li>Passionate about information design and designing for functionality.</li> </ul>
+
     
     
 
-<p>Inspired by: Social Psychology, Social Cognition, Society of Mind, Neuroscience and Behavior, Behavioral Endocrinology, Irrationality, 
-   Evolution, Ecology and Behavior, Environmental Psychology, Animal Behavior, Evolution of Brain and Language, Heidegger’s Being and Time, 
-   Mathematics: Making the Invisible Visible, Model Thinking, Philosophy of Language, and Theory of Meaning.</p>
+<div id="box" class="fancy" style="font-size=1.3em"; >box text</div> 
  
     </section>
     <div class="col-md-1 col-sm-0">
@@ -146,78 +147,63 @@
     <!- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
       <li class="active"><a href="#design" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-eye-open btn-circle  btn-lg"></span></a></li>
-      <li><a href="#film" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-film btn-circle  btn-lg"></span></a></li>
-      <li><a href="#audio" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-headphones btn-circle  btn-lg"></span></a></li>
-      <li><a href="#writing" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-pencil btn-circle  btn-lg"></span></a></li>
       <li><a href="#code" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-cog btn-circle  btn-lg"></span></a></li>
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div class="tab-pane active" id="design">...</div>
-      <div class="tab-pane" id="film">...</div>
-      <div class="tab-pane" id="audio">
-        <p>20+ years of experience as an independent audio designer, composer and producer<p>
-<ul><li>Game audio for independent developers</li>
-
-<li>Composer for APM music library. Licensees include PBS and A&E</li>
-
-<li>AAA Digital audio engineer, sound designer, and team lead at Stargate Studios</li>
-
-<li>Audio engineer and sound designer at NYU TSOA graduate recording studios</li>
-    </ul>
-
-<p>Education includes a two year apprentice to composer and sound designer Mars Lasar.</p>
-
-<p>Undergraduate Coursework at NYU in MIDI production, directing vocal performance, 
-location sound recording, and audio post production, and sound as art.  Graduate coursework at NYU ITP in audio computation. </p>
+      <div class="tab-pane active" id="design">
 
 
+<p>Media Design and Production</p>
+<ul><li>Video Games: Narrative Designer on Bello Galactica mobile
 
+game; AAA Sound Designer and Digital Audio Team Lead at Stargate Studios; Game audio design for 
+
+independent developers. Game writing consultant at Focal Press; </li>
+
+<li>Entertainment: Assistant Story Coordinator at Paramount Television’s “Hardcopy;” Development
+
+Coordinator at KGM LA; TV Writer on “Dip Shitz” pilot for Palm d'Or Productions; and Reader and
+
+Development Assistant at Double Play Productions; Composer for APM music library with licensees 
+
+including PBS and A&E.</li>
+
+<li>Magazine/Blog: Contributing Writer to Gamasutra, Ultraculture, and Tablet Magazine.
+
+<li>Music: Assistant producer and coordinator at A*Vision, Atlantic Records; Professional Recording Artist 
+
+with international distribution from 1994-2009 under the names “Prince Charming” and “Lovecraft 
+
+Technologies”; Audio Engineer and Sound Designer at NYU TSOA graduate recording studios.</li></ul>
+
+<p>Freelance graphic design work for the entertainment, women's fashion and cosmetics industries includes: </p><ul><li>logos</li> <li>sales materials</li> <li>presentation materials</li> <li>
+internal documents forms and sationary</li><li>web design</li></ul> 
+<p>Music related graphic design work includes:<p> <ul><li>package design</li> <li>ad design</li> <li>web design</li> 
+  <li>interaction design</li> <li>motion graphics</li> <li>promotional poster and flier design</li></ul>  <p>Primary organizer and event 
+  designer of "Sketch Pad" a long running weekly doodling event in Seattle.</p>
 
 
       </div>
-      <div class="tab-pane" id="writing"><p>Over 20 years of experience as a transmedia narrative designer</p>
-<ul><li>Game writing consultant at Focal Press</li>
-
-<li>Narrative Designer on Bello Galactica mobile game</li>
-
-<li>TV Writer on Dip Shitz pilot for Palm d'Or Productions</li>
-
-<li>Contributing writer to Gamasutra, Ultraculture, and Tablet Magazine </li>
-
-<li>Development coordinator KGM LA</li>
-
-<li>Producer at Micromind software startup</li>
-
-<li>Producer at Tasty Productions</li>
-
-<li>Assistant producer and office manager at A*Vision, Atlantic Records</li>
-
-<li>Assistant story coordinator at Paramount Television/Hardcopy</li>
-
-<li>Assistant producer at LSL Productions</li>
-
-<li>Reader and development assistant at Double Play Productions</li></ul></div>
-
-
-
-
-
+ 
 
 
 
 
       <div class="tab-pane" id="code">
 <p>I am presently working towards a Master’s Degree in Digital Media and Instructional Design and a Graduate Certificate 
-in Web Technologies from Harvard’s Extension Program.</p>
+in Web Technologies from Harvard’s Extension Program.  </p>
 
-<ul><li>Previous graduate coursework at New York University’s Interactive Telecommunications Program includes computational media, 
-  interface design, and electrical engineering. </li>
-  <li>I like to dabble in C languages like C/C++, Java, PHP, Python, Ruby, PHP, Javascript, and Actionscript.</li>
+<p>My professional training has included CMS Development 
+(Wordpress, Drupal, Joomla), Laravel, version control, testing, dependency management, C languages (C/C++, Java, PHP, Python, Ruby, PHP, 
+Javascript, and Actionscript), CSS, and HTML.</p>
+
+
+    <ul><li>Previous graduate coursework at New York University’s Interactive Telecommunications Program includes computational media, 
+  interface design, and electrical engineering. <//li>
   <li>Past experience includes hand coding (HTML, Javascript, Actionscript) over a dozen media rich music web sites to 
     market my work as a professional recording artist.</li>
-    </ul>
 
 
 
@@ -250,13 +236,14 @@ in Web Technologies from Harvard’s Extension Program.</p>
 
 
   <section class="col-md-5 col-sm-12">
-    <h2>BRACKETED HEADLINE</h2>
-    <ul>
-    <li>bulleted list</li>
-    <li>list item two</li>
-    <li>#3rule of threes</li>
-    </ul>
-    <p>Paragraph of ad copy</p>
+    <h2>I am</h2>
+<ul>
+    
+    <li>A  problem solver</li>
+    <li>A brain stormer</li>
+    <li>A communicator, contributer & collaborator</li>
+  </ul>
+    <h1>Excellent under pressure</h1>
  
     </section>
     <div class="col-md-1 col-sm-0">
@@ -289,8 +276,7 @@ while coordinating the complex flow of technically detailed time critical elemen
 
       </div>
       <div class="tab-pane" id="biz2"><ul>
-<li>Graduate certificate in Producing from UCLA’s Professional Program.  Certified in project management (CaPM) from PMI.  
-  Certified in agile project management (CSM) methodology.</li>
+<li>Graduate certificate in Producing from UCLA’s Professional Program.  Certified in project management (CaPM) and agile/scrum (CSM).</li>
 
 <li>Graduate coursework at New York University’s Interactive Telecommunications Program in consumer marketing.  
   Undergraduate education at NYU and University of Michigan in TV & radio station Management , film production, 
