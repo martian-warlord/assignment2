@@ -60,8 +60,7 @@
     <section class="col-md-5 col-sm-12">
 <img  alt="Joshua Darlington Headshot" src="Images/Joshua-Darlington-Headshot.jpg" />
 
- <span class='contact'><img  alt="phone number" src="Images/PHONO.png" />310.570.8174</span>
- <span class='contact'><img  alt="email address" src="Images/MAILS.png" />joshua_darlington@yahoo.com</span>
+ 
     </section>
     <div class="col-md-1 col-sm-0">
 <p> </p>
