@@ -61,7 +61,7 @@
  
     </section>
     <div class="col-md-1 col-sm-0">
-<p>|<br></p>
+<p> </p>
 </div>
 
 
@@ -71,13 +71,12 @@
     <ul class="nav nav-tabs" role="tablist">
       <li class="active"><a href="#star" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-star btn-circle  btn-lg"></span></a></li>
       <li><a href="#tree" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-tree-deciduous btn-circle  btn-lg"></span></a></li>
-      <li><a href="#heart" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-heart btn-circle  btn-lg"></span></a></li>
+      
     </ul>
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div class="tab-pane active" id="star"><h2>I am</h2> <p>a former rock star with 20 years of success navigating the hyper competitive landscape of 
-        music and entertainment.  </p> <p>A digital artist, designer and producer.  
+      <div class="tab-pane active" id="star"><h2>I am</h2> <p>A digital artist, designer and producer.  
 
            <ul>
     <li>20+ years of experience using Adobe software tools.</li>
@@ -85,28 +84,13 @@
     <li>A Certified agile project manager </li>
     </ul>
         </p>
-
+<p>a former rock star with 20 years of success navigating the hyper competitive landscape of 
+        music and entertainment.  </p> 
 
         </div>
       <div class="tab-pane" id="tree"><h2>I am</h2> <p>A husband and a father.  </p><p>I recently moved to Madison to follow my wife who is 
         now the managing editor of Update magazine at the Wisconsin School of Business.    </p></div>
-      <div class="tab-pane" id="heart"><h2>I am</h2>
-
-<p>Passionate about design and making beautiful and emotional experiences.  
-<ul>
-    <li>User centric</li>
-    <li>Tech agnostic</li>
-    <li>A functionality first design fundamentalist</li></ul>
-    
-    
-
-<p>Inspired by: Social Psychology, Social Cognition, Society of Mind, Neuroscience and Behavior, Behavioral Endocrinology, Irrationality, 
-   Evolution, Ecology and Behavior, Environmental Psychology, Animal Behavior, Evolution of Brain and Language, Heidegger’s Being and Time, 
-   Mathematics: Making the Invisible Visible, Model Thinking, Philosophy of Language, and Theory of Meaning.</p>
-
-
-
-      </div>
+     
     </div>
     </section>
     </row>
@@ -124,7 +108,7 @@
     <div class="panel-heading">
       <h4 class="panel-title  g">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    <span class="glyphicon glyphicon-eye-open btn-circle  btn-lg"></span>
+                    <span class="glyphicon glyphicon-heart btn-circle  btn-lg"></span>
         </a>
       </h4>
     </div>
@@ -137,17 +121,23 @@
 
 
   <section class="col-md-5 col-sm-12">
-    <h2>#UXD </h2>
-    <ul>
-    <li>20+ years of Creative Leadership</li>
-    <li>Defining & Driving Design process</li>
-    <li>Digital Kung Fu Master</li>
-    </ul>
-    <p>Paragraph of ad copy</p>
+<h2>I am</h2>
+
+<p>Passionate about design and making beautiful and emotional experiences.  
+<ul>
+    <li>User centric</li>
+    <li>Tech agnostic</li>
+    <li>A functionality first design fundamentalist</li></ul>
+    
+    
+
+<p>Inspired by: Social Psychology, Social Cognition, Society of Mind, Neuroscience and Behavior, Behavioral Endocrinology, Irrationality, 
+   Evolution, Ecology and Behavior, Environmental Psychology, Animal Behavior, Evolution of Brain and Language, Heidegger’s Being and Time, 
+   Mathematics: Making the Invisible Visible, Model Thinking, Philosophy of Language, and Theory of Meaning.</p>
  
     </section>
     <div class="col-md-1 col-sm-0">
-<p>|</p>
+<p> </p>
 </div>
 
 
@@ -219,14 +209,15 @@ location sound recording, and audio post production, and sound as art.  Graduate
 
 
       <div class="tab-pane" id="code">
-<ul><li>I am presently working towards a Master’s Degree in Digital Media and Instructional Design and a Graduate Certificate 
-in Web Technologies from Harvard’s Extension Program.</li>
+<p>I am presently working towards a Master’s Degree in Digital Media and Instructional Design and a Graduate Certificate 
+in Web Technologies from Harvard’s Extension Program.</p>
 
-<li>Previous graduate coursework at New York University’s Interactive Telecommunications Program includes computational media, 
-  interface design, and electrical engineering. </li></ul>
-  <p>I like to dabble in C languages like C/C++, Java, PHP, Python, Ruby, PHP, Javascript, and Actionscript.</p>
-  <p>Past experience includes hand coding (HTML, Javascript, Actionscript) over a dozen media rich music web sites to market my work as a professional recording artist.</P>
-    
+<ul><li>Previous graduate coursework at New York University’s Interactive Telecommunications Program includes computational media, 
+  interface design, and electrical engineering. </li>
+  <li>I like to dabble in C languages like C/C++, Java, PHP, Python, Ruby, PHP, Javascript, and Actionscript.</li>
+  <li>Past experience includes hand coding (HTML, Javascript, Actionscript) over a dozen media rich music web sites to 
+    market my work as a professional recording artist.</li>
+    </ul>
 
 
 
@@ -269,7 +260,7 @@ in Web Technologies from Harvard’s Extension Program.</li>
  
     </section>
     <div class="col-md-1 col-sm-0">
-<p>|<br>|<br>|<br>|<br>|<br>|<br>|<br></p>
+<p> </p>
 </div>
 
     <section class="col-md-6 col-sm-12">
@@ -278,7 +269,7 @@ in Web Technologies from Harvard’s Extension Program.</li>
     <ul class="nav nav-tabs" role="tablist">
       <li class="active"><a href="#biz1" role="tab" data-toggle="tab">Experience</a></li>
       <li><a href="#biz2" role="tab" data-toggle="tab">Education</a></li>
-      <li><a href="#t23" role="tab" data-toggle="tab">Messages</a></li>
+      
     </ul>
 
     <!-- Tab panes -->
@@ -311,7 +302,7 @@ while coordinating the complex flow of technically detailed time critical elemen
 
 
       </div>
-      <div class="tab-pane" id="t23">...</div>
+      
     </div>
     </section>
     </row>
