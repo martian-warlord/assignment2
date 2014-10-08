@@ -1,0 +1,200 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+
+}
+body {
+
+  text-align: center;
+
+font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+
+
+
+h1{display: inline-block;  border: 1px solid;
+padding: 1.25rem 1.6875rem;}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset
+
+  animation:         site-wrapper 3s infinite alternate; /* CSS3 */
+  -moz-animation:    site-wrapper 3s infinite alternate; /* Firefox */
+  -webkit-animation: site-wrapper 3s infinite alternate; /* Webkit */
+}
+
+
+@keyframes site-wrapper { /* CSS3 */
+  0%   { background-color: #ffe15c; }
+  13%  { background-color: #fdec93; }
+  27% { background-color: #fee475; }
+  42%   { background-color: #f1d35e; }
+  56%  { background-color: #e0c059; }
+  70% { background-color: #f0d369; }
+  85%   { background-color: #f0d577; }
+  100%   { background-color: #f5c451; }
+
+
+
+
+
+}
+@-moz-keyframes site-wrapper { /* Firefox */
+  0%   { background-color: #ffe15c; }
+  13%  { background-color: #fdec93; }
+  27% { background-color: #fee475; }
+  42%   { background-color: #f1d35e; }
+  56%  { background-color: #e0c059; }
+  70% { background-color: #f0d369; }
+  85%   { background-color: #f0d577; }
+  100%   { background-color: #f5c451; }
+}
+@-webkit-keyframes site-wrapper { /* Webkit */
+  0%   { background-color: #ffe15c; }
+  13%  { background-color: #fdec93; }
+  27% { background-color: #fee475; }
+  42%   { background-color: #f1d35e; }
+  56%  { background-color: #e0c059; }
+  70% { background-color: #f0d369; }
+  85%   { background-color: #f0d577; }
+  100%   { background-color: #f5c451; }
+}
+
+
+
+
+
+
+
+
+
+
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+
+
+/*
+ * Footer
+ */
+
+
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
