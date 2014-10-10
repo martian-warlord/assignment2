@@ -6187,6 +6187,9 @@ nav.navbar.navbar-default.navbar-top {
   -webkit-animation: greens 50s infinite alternate;
   /* Webkit */
 }
+div.panel-heading {
+  background-color: white;
+}
 div.panel-body {
   animation: greens 50s infinite alternate;
   /* CSS3 */
@@ -6389,7 +6392,6 @@ h1 {
   text-align: center;
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 3em;
-  color: #d40e52;
 }
 h2 {
   font-family: 'Carrois Gothic SC', sans-serif;
@@ -6408,11 +6410,26 @@ h4 {
   color: #d40e52;
   font-family: 'Carrois Gothic SC', sans-serif;
 }
-img {
+#headshot {
+  margin: 1.3em 1.3em 1.3em;
   display: block;
   max-height: 100%;
   max-width: 80%;
-  float: left;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.thumbnail {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  animation: site-wrapper 50s infinite alternate;
+  /* CSS3 */
+  -moz-animation: site-wrapper 50s infinite alternate;
+  /* Firefox */
+  -webkit-animation: site-wrapper 50s infinite alternate;
+  /* Webkit */
 }
 header {
   background-color: #61c7e4;
@@ -6460,4 +6477,141 @@ article {
   border-color: black;
   font-size: 1.3em;
   line-height: 1.4em;
+}
+body {
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
+}
+@-webkit-keyframes color-change {
+  0% {
+    color: 4A4A4A;
+  }
+  15% {
+    color: 6d5894;
+  }
+  30% {
+    color: 454545;
+  }
+  42% {
+    color: 3b116d;
+  }
+  55% {
+    color: 333333;
+  }
+  70% {
+    color: 70492f;
+  }
+  85% {
+    color: 262626;
+  }
+  100% {
+    color: 3b116d;
+  }
+}
+@-moz-keyframes color-change {
+  0% {
+    color: 4A4A4A;
+  }
+  15% {
+    color: 6d5894;
+  }
+  30% {
+    color: 454545;
+  }
+  42% {
+    color: 3b116d;
+  }
+  55% {
+    color: 333333;
+  }
+  70% {
+    color: 70492f;
+  }
+  85% {
+    color: 262626;
+  }
+  100% {
+    color: 3b116d;
+  }
+}
+@-ms-keyframes color-change {
+  0% {
+    color: 4A4A4A;
+  }
+  15% {
+    color: 6d5894;
+  }
+  30% {
+    color: 454545;
+  }
+  42% {
+    color: 3b116d;
+  }
+  55% {
+    color: 333333;
+  }
+  70% {
+    color: 70492f;
+  }
+  85% {
+    color: 262626;
+  }
+  100% {
+    color: 3b116d;
+  }
+}
+@-o-keyframes color-change {
+  0% {
+    color: 4A4A4A;
+  }
+  15% {
+    color: 6d5894;
+  }
+  30% {
+    color: 454545;
+  }
+  42% {
+    color: 3b116d;
+  }
+  55% {
+    color: 333333;
+  }
+  70% {
+    color: 70492f;
+  }
+  85% {
+    color: 262626;
+  }
+  100% {
+    color: 3b116d;
+  }
+}
+@keyframes color-change {
+  0% {
+    color: 4A4A4A;
+  }
+  15% {
+    color: 6d5894;
+  }
+  30% {
+    color: 454545;
+  }
+  42% {
+    color: 3b116d;
+  }
+  55% {
+    color: 333333;
+  }
+  70% {
+    color: 70492f;
+  }
+  85% {
+    color: 262626;
+  }
+  100% {
+    color: 3b116d;
+  }
 }
