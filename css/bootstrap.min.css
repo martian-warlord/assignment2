@@ -4582,8 +4582,6 @@ a.list-group-item.active > .badge,
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -5164,9 +5162,6 @@ a.list-group-item-danger.active:focus {
 .panel > .table-responsive {
   border: 0;
   margin-bottom: 0;
-}
-.panel-group {
-  margin-bottom: 20px;
 }
 .panel-group .panel {
   margin-bottom: 0;
@@ -6435,7 +6430,7 @@ h2 {
   font-family: 'Carrois Gothic SC', sans-serif;
   font-weight: bold;
   padding-bottom: 5px;
-  color: #5c2d50;
+  color: #black;
 }
 h3 {
   text-align: center;
