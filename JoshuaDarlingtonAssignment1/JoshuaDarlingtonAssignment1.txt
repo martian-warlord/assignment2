@@ -1,0 +1,45 @@
+Joshua Darlington
+DGMD E-20 (14283)
+Assignment 1
+Fall 2014
+
+
+
+How to turn in your assignment
+Turn the assignment in via Canvas, Assignment 1 link.
+
+In a text document, paste the URL for the home page of your website.
+
+http://joshuad.siteground.net/Assignment1/index.html
+
+
+
+In the text file, please specify the following:
+
+What three styles/components did you use from the list above?
+
+1.Glyphicons
+2.Jumbotron
+3.Thumbnails
+
+What two JavaScript widgets did you use?
+
+1.Accordian
+2.Togglable tabs
+
+What are the 5 (minimum) styles you customized with LESS CSS? What LESS partial file are they located in?
+
+/* Josh changed modal background color to blue animation */
+/* Josh Changed modal text color to animated black */
+/* Josh Changed jumbotron text color to animated black */
+/* Josh Changed thumbnail text color to animated black */
+/* Josh lightened the default hamburger icon by %30 */
+
+NOTE:
+The cover page and navbar are deliberately minimal.  If for any reason this work does not meet your standards or expectations, please let me know and I will resubmit.  Thank you! - Josh     joshua_darlington@yahoo.com
+
+
+
+Zip/compress/bundle this text file with the LESS files relevant to your site. (This includes custom.less plus any additional files containing changes.)
+
+Upload this zipped file into the assignment box.

@@ -1359,7 +1359,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   color: #333333;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
@@ -2111,7 +2111,7 @@ th {
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 table col[class*="col-"] {
   position: static;
@@ -2136,14 +2136,14 @@ table th[class*="col-"] {
 .table > thead > tr.active > th,
 .table > tbody > tr.active > th,
 .table > tfoot > tr.active > th {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 .table-hover > tbody > tr > td.active:hover,
 .table-hover > tbody > tr > th.active:hover,
 .table-hover > tbody > tr.active:hover > td,
 .table-hover > tbody > tr:hover > .active,
 .table-hover > tbody > tr.active:hover > th {
-  background-color: #e8e8e8;
+  background-color: #f2f2f2;
 }
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
@@ -3154,7 +3154,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4074,6 +4074,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  /* Josh lightened the default hamburger icon by %30 */
 }
 .navbar-default .navbar-brand {
   color: #777777;
@@ -4084,7 +4085,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #777777;
+  color: #c3c3c3;
 }
 .navbar-default .navbar-nav > li > a {
   color: #777777;
@@ -4170,6 +4171,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse {
   background-color: #222222;
   border-color: #080808;
+  /* Josh lightened the default hamburger icon by %30 */
+  /* Josh lightened the default hamburger icon by %30 */
 }
 .navbar-inverse .navbar-brand {
   color: #777777;
@@ -4180,7 +4183,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #777777;
+  color: #c3c3c3;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #777777;
@@ -4251,7 +4254,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   }
 }
 .navbar-inverse .navbar-link {
-  color: #777777;
+  color: #c3c3c3;
 }
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
@@ -4273,7 +4276,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -4526,18 +4529,29 @@ a.list-group-item.active > .badge,
 }
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
   color: inherit;
   background-color: #eeeeee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  /* Josh Changed Jumbotron text color to black animation */
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
 }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  /* Josh Changed Jumbotron text color to black animation */
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4586,7 +4600,12 @@ a.thumbnail.active {
 }
 .thumbnail .caption {
   padding: 9px;
-  color: #333333;
+  /* Josh Changed thumbnail text color to black animation */
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
 }
 .alert {
   padding: 15px;
@@ -4683,7 +4702,7 @@ a.thumbnail.active {
   overflow: hidden;
   height: 20px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -4824,7 +4843,7 @@ a.list-group-item:hover,
 a.list-group-item:focus {
   text-decoration: none;
   color: #555555;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
@@ -4969,6 +4988,12 @@ a.list-group-item-danger.active:focus {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  /* Josh Changed Jumbotron text color to black animation */
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
 }
 .panel-body {
   padding: 15px;
@@ -4993,7 +5018,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-top: 1px solid #dddddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
@@ -5167,14 +5192,14 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   border-color: #dddddd;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #dddddd;
 }
 .panel-default > .panel-heading .badge {
-  color: #f5f5f5;
+  color: #ffffff;
   background-color: #333333;
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -5299,8 +5324,8 @@ a.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5388,6 +5413,13 @@ button.close {
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
+  /* Josh changed modal background color to blue animation */
+  animation: site-wrapper 50s infinite alternate;
+  /* CSS3 */
+  -moz-animation: site-wrapper 50s infinite alternate;
+  /* Firefox */
+  -webkit-animation: site-wrapper 50s infinite alternate;
+  /* Webkit */
 }
 .modal-backdrop {
   position: fixed;
@@ -5417,6 +5449,12 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  /* Josh Changed Modal text color to black animation */
+  -webkit-animation: color-change 20s infinite;
+  -moz-animation: color-change 20s infinite;
+  -o-animation: color-change 20s infinite;
+  -ms-animation: color-change 20s infinite;
+  animation: color-change 20s infinite;
 }
 .modal-body {
   position: relative;
@@ -6165,10 +6203,10 @@ button.close {
   }
 }
 /*
-  CSS file for DWA p1
+  CSS file for a1
 */
 body {
-  padding-top: 70px;
+  padding-top: 50px;
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 12px;
   line-height: 12px;
@@ -6457,6 +6495,20 @@ article {
   line-height: 1.3em;
   text-align: center;
 }
+#bracketed2 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  text-align: center;
+}
+#bracketed3 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  text-align: center;
+}
 #box {
   font-family: 'Carrois Gothic SC', sans-serif;
   font-size: 1.3em;
@@ -6614,4 +6666,25 @@ body {
   100% {
     color: 3b116d;
   }
+}
+h1.cover-heading {
+  display: inline-block;
+  border: 1px solid;
+  padding: 1.25rem 1.6875rem;
+  text-align: center;
+}
+h1.cover-heading:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+#cover {
+  text-align: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px white;
+  box-shadow: inset;
 }
