@@ -49,7 +49,7 @@
       <div class="jumbotron" id="headsup">
       <div class="container">
 
-        <div id="flier"><p id="clickme">IxD</p></div>
+        <p id="clickme" alt="background icon on mouseover to demonstrate basic jquery syntax">IxD</p>
 
 
 
@@ -80,7 +80,7 @@
         
           <a href="http://joshuad.siteground.net/design/building-services.html" class="btn btn-primary" role="button">Jump</a></div></div></li>
 
-        <li class="thumbnail col-sm-3 col-xs-6"><img class="img-circle" src="Images/dog.png" alt="Eye Catching Icon for Motion Graphics">
+        <li class="thumbnail col-sm-3 col-xs-6"><img id="motion" class="img-circle spinner" src="spiral.png" alt="Eye Catching Icon for Motion Graphics">
         <div class="caption">
         <p>Motion</p>
         <div class="btn-group ">
@@ -193,26 +193,56 @@
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
 
 <script>
 $("#clickme").hover(function(){
   $("#headsup")
   .addClass('headerimage');   
   $( this ).animate({opacity:'0.0'},"fast");
-
-
-
   },function(){
   $("#headsup").removeClass('headerimage');
   $( this )
   .animate({opacity:'1'},"fast"); 
+});
+</script>
+
+
+<script>
+
+
+
+$("#motion").click(function(){
+var src = ($(this).attr('src') === 'spiral.png')
+            ? 'Images/dog.png'
+            : 'spiral.png';
+         $(this).attr('src', src);
 
 
 });
 
 
+var angle = 0;
+
+var interval = setInterval(function(){
+      angle+=3;
+     $("#motion").rotate(angle);
+},50);
+
+
+$("#motion").click(function() {
+    clearInterval(interval); // stick the clearInterval in a click event
+
+    $("#motion").rotate(0)
+});
+
+
+
 
 </script>
+
+
+
 
 <style>
 
@@ -220,6 +250,13 @@ $("#clickme").hover(function(){
     background-image: url('IxD_icon2.png');
     background-size: 300px;
     background-repeat:no-repeat;
+
+
+
+
+
+
+
 
 </style>
 
