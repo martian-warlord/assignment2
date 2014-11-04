@@ -187,11 +187,13 @@
 // Custom button for toggling the `.navbar-collapse`, powered by the collapse
 // JavaScript plugin.
 
+//Josh floated the pancake left and inverted padding.
+
 .navbar-toggle {
   position: relative;
-  float: right;
-  margin-right: @navbar-padding-horizontal;
-  padding: 9px 10px;
+  float: left;
+  margin-left: @navbar-padding-horizontal;
+  padding: 9px 0px 0px  10px;
   .navbar-vertical-align(34px);
   background-color: transparent;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
@@ -470,7 +472,7 @@
       // Dropdowns get custom display when collapsed
       .open .dropdown-menu {
         > li > a {
-          color: @navbar-default-link-color;
+          color: lighten(@navbar-default-link-color, %50);
           &:hover,
           &:focus {
             color: @navbar-default-link-hover-color;
