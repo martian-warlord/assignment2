@@ -46,10 +46,13 @@
 
 </div> <!-- container end -->
 
-      <div class="jumbotron">
+      <div class="jumbotron" id="headsup">
       <div class="container">
 
-        <p>IxD</p>
+        <div id="flier"><p id="clickme">IxD</p></div>
+
+
+
         
 
       </div>
@@ -190,6 +193,35 @@
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<script>
+$("#clickme").hover(function(){
+  $("#headsup")
+  .addClass('headerimage');   
+  $( this ).animate({opacity:'0.0'},"fast");
+
+
+
+  },function(){
+  $("#headsup").removeClass('headerimage');
+  $( this )
+  .animate({opacity:'1'},"fast"); 
+
+
+});
+
+
+
+</script>
+
+<style>
+
+ .headerimage {
+    background-image: url('IxD_icon2.png');
+    background-size: 300px;
+    background-repeat:no-repeat;
+
+</style>
 
 
 
