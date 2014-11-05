@@ -154,7 +154,7 @@
 
 
  
-<div class="row" style="border:1px;text-align:center;">
+<div id="charitylink" class="row" style="border:1px;text-align:center;">
       <h2>
           <span id='bracketed2' data-toggle="collapse" data-target="#charity">Joshua Darlington </span>
       </h2>
@@ -183,11 +183,11 @@ Tell me about your work or nominate a worth cause.
 <form action="" method="post"  name="charity" id="form"> 
      
 
-<input id="name" name="name" type="text" class="form-control" placeholder="Name">
-<input id="contact" name="contact" type="text" class="form-control" placeholder="Primarty contact info">
+<div class= "form-group name-group"><input id="name" name="name" type="text" class="form-control" placeholder="Name"></div>
+<div class= "form-group email-group"><input id="contact" name="contact" type="email" class="form-control" placeholder="Email"></div>
 
 
-<textarea class="form-control" rows="5" placeholder="Details"></textarea>
+<div class= "form-group details-group"><textarea id="details" name="details" type="text"   class="form-control" rows="5" placeholder="Details"></textarea></div>
    
 
     <button name="Submit" id="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Submit</button>
@@ -244,6 +244,22 @@ $("#clickme").hover(function(){
 });
 </script>
 
+<script>
+$("#bracketed2").hover(function(){
+  $( this ).animate({opacity:'0.0'},"fast");
+  $("#charitylink")
+  .addClass('headerimage').css("background-position", "center");   
+  
+$( this ).animate({ fontSize : '+=1em' })
+
+  },function(){
+  $("#charitylink").removeClass('headerimage');
+ 
+  $( this ).animate({ fontSize : '-=1em' })
+    $( this ).animate({opacity:'1'},"fast");
+});
+</script>
+
 
 <script>
 
@@ -275,11 +291,72 @@ $("#motion").click(function() {
 
 <script>
 
-$( "#bracketed2" ).click(function() {
-  $( #charity ).slideDown( "slow", function() {
-    // Animation complete.
-  });
-});
+
+
+
+        $('#name').focusout(function(){
+                if($('#name').val().length !== 0) {
+                        $('.name-group').attr({
+                                class: 'form-group name-group has-success'
+                        }); // end attr
+                        $('#name').css( "color", "black", 'important' );
+                        $('#name').css( "background-color", "rgb(172, 232, 146)", 'important' );
+                } 
+        }); //end focus out
+
+
+
+                $('#contact').focusout(function(){
+                if($('#contact').val().length !== 0) {
+                        $('.email-group').attr({
+                                class: 'form-group email-group has-success'
+                        }); // end attr
+                        $('#contact').css( "color", "black", 'important' );
+                        $('#contact').css( "background-color", "rgb(172, 232, 146)", 'important' );
+                } 
+        }); //end focus out
+
+
+                $('#details').focusout(function(){
+                if($('#details').val().length !== 0) {
+                        $('.details-group').attr({
+                                class: 'form-group details-group has-success'
+                        }); // end attr
+                        $('#details').css( "color", "black", 'important' );
+                        $('#details').css( "background-color", "rgb(172, 232, 146)", 'important' );
+                } 
+        }); //end focus out
+
+
+
+
+$('button').click(function(submit){
+                if($('#name').val().length == 0) {
+                        $('.name-group').attr({
+                                class: 'form-group name-group has-error'
+                        }); // end attr
+                $('#name').css( "color", "white", 'important' );
+                $('#name').css( "background-color", "rgb(255,64,64)", 'important' );
+                        submit.preventDefault();
+                } else if ($('#contact').val().length == 0) {
+                        $('.email-group').attr({
+                                class: 'form-group email-group has-error'
+                        }); // end attr
+                $('#contact').css( "color", "white", 'important' );
+                $('#contact').css( "background-color", "rgb(255,64,64)", 'important' );
+                        submit.preventDefault();
+                } else if ($('#details').val().length == 0) {
+                        $('.details-group').attr({
+                                class: 'form-group details-group has-error'
+                        }); // end attr
+                $('#details').css( "color", "white", 'important' );
+                $('#details').css( "background-color", "rgb(255,64,64)", 'important' );
+                        submit.preventDefault();
+                } else {
+                        $('#myModal').modal();
+                        submit.preventDefault();
+                }
+        }); //end click
 
   
 
