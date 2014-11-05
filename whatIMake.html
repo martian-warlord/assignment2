@@ -156,10 +156,47 @@
  
 <div class="row" style="border:1px;text-align:center;">
       <h2>
-          <span id='bracketed2' >Joshua Darlington </span>
+          <span id='bracketed2' data-toggle="collapse" data-target="#charity">Joshua Darlington </span>
       </h2>
 </div>
 
+
+
+        <div class="jumbotron collapse"  id="charity">
+        <div class="container">
+        <div class="row">
+
+
+<section class="col-md-6 col-sm-12">
+
+<p>
+I do free web design for a charities.
+
+Tell me about your work or nominate a worth cause.  
+</p>
+<div id="wtf">
+  </div>
+</section>
+
+
+<div class="col-md-6 col-sm-12">
+<form action="" method="post"  name="charity" id="form"> 
+     
+
+<input id="name" name="name" type="text" class="form-control" placeholder="Name">
+<input id="contact" name="contact" type="text" class="form-control" placeholder="Primarty contact info">
+
+
+<textarea class="form-control" rows="5" placeholder="Details"></textarea>
+   
+
+    <button name="Submit" id="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Submit</button>
+</div>
+
+
+</div >
+</div >
+</div>
 
 
 
@@ -229,17 +266,30 @@ var interval = setInterval(function(){
      $("#motion").rotate(angle);
 },50);
 
-
 $("#motion").click(function() {
     clearInterval(interval); // stick the clearInterval in a click event
 
     $("#motion").rotate(0)
 });
+</script>
 
+<script>
+
+$( "#bracketed2" ).click(function() {
+  $( #charity ).slideDown( "slow", function() {
+    // Animation complete.
+  });
+});
+
+  
 
 
 
 </script>
+
+
+
+
 
 
 
