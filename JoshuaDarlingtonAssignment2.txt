@@ -1,40 +1,47 @@
+Name: Joshua Darlington
+Class: DGMD E-20
+Date: Fall, 2014 
+
 Paste the URL for the home page of your website, which should be at GitHub Pages.
 
-ASSIGNMENT 2 URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		ASSIGNMENT 2 URL:	http://martian-warlord.github.io/assignment2/
 
 Post a link to the GitHub repository of your files as well.
 
-
-GITHUB LINK:
+		GITHUB LINK: https://github.com/martian-warlord/assignment2
 
 My two jQuery-driven interactive elements in the form include ____ and it is located at this URL: ____
 
-FORM EFFECT 1: "Green light" Styles added to form field on "focus out" if value is present.
-FORM EFFECT 2:  "Red light" Styles added if the form submitted without all values filled in.
-URL: 
+
+
+		FORM EFFECT 1: "Green light" Styles added to form field on "focus out" if value is present.
+		FORM EFFECT 2:  "Red light" Styles added if the form submitted without all values filled in.
+		URL: http://martian-warlord.github.io/assignment2/
+		SPECIAL NOTE ABOUT FORM LOCATION:  Once the page has loaded, the hidden form can be revealed by clicking on the name "Joshua Darlington" located at the bottom center of the page.
+
 
 My site’s click effect is  ____ and it is located at this URL: ____
 
-CLICK EFFECT: Image rotation is turned off, and image source is changed.
-URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		CLICK EFFECT: When the "Motion" image is clicked, rotation is turned off and the image source is changed.
+		URL:	http://martian-warlord.github.io/assignment2/
 
 My site’s hover effect is ____ and it is located at this URL: ____
 
-HOVER EFFECT: Mouse over hover effect on name text. Animated opacity and font size on text. Background image toggled through a adding and removing a class.
-URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		HOVER EFFECT: Mouse over hover effect on name "Joshua Darlington" text triggers animated opacity and font size on text. ALso, a background image is toggled through a adding and removing a class.
+		URL:	http://martian-warlord.github.io/assignment2/
 
 My if/else choice is ____ and it is located at this URL: ____
 
-IF/ELSE: On the click effect, the image source is toggled using an if else conditional.
-URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		IF/ELSE: On a click event, the "motion" image source is toggled using an if else conditional.
+		URL:	http://martian-warlord.github.io/assignment2/
 
 My effect that requires filtering the results is ____ and it is located at this URL: ____
 
-FILTERING EFFECT: On form effect 2, the button selector is filtered with the submit id.
-URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		FILTERING EFFECT: On form effect 2, the button selector is filtered with the submit id.
+		URL:	http://martian-warlord.github.io/assignment2/
 
 Two more effects of my choice are ____ and it is located at this URL: ____
 
-OPTIONAL EFFECT1: Adds background image to header area through a adding and removing a class.
-OPTIONAL EFFECT2: When one thumbnail is hovered over, the other thumbnails fade out.
-URL:	http://joshuad.siteground.net/Assignment1a/a2.html
+		OPTIONAL EFFECT1: Hover effect on header area that toggles a background image through adding and removing a class.
+		OPTIONAL EFFECT2: When one thumbnail is hovered over, the other thumbnails fade out.
+		URL:	http://martian-warlord.github.io/assignment2/

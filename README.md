@@ -1,7 +1,7 @@
 # Assignment2
 
 ## Live URL
-TBD
+http://martian-warlord.github.io/assignment2/
 
 ## Description
 Assignment2: 
