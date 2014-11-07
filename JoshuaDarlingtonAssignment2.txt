@@ -1,12 +1,11 @@
 Paste the URL for the home page of your website, which should be at GitHub Pages.
 
-ASSIGNMENT 2 URL:
+ASSIGNMENT 2 URL:	http://joshuad.siteground.net/Assignment1a/a2.html
 
 Post a link to the GitHub repository of your files as well.
 
 
 GITHUB LINK:
-
 
 My two jQuery-driven interactive elements in the form include ____ and it is located at this URL: ____
 
@@ -17,27 +16,25 @@ URL:
 My site’s click effect is  ____ and it is located at this URL: ____
 
 CLICK EFFECT: Image rotation is turned off, and image source is changed.
-URL:
+URL:	http://joshuad.siteground.net/Assignment1a/a2.html
 
 My site’s hover effect is ____ and it is located at this URL: ____
 
-HOVER EFFECT: Mouse over hover effect on name text.  Animated opacity and font size on text. Background image toggled through a adding and removing a class.
-URL:
+HOVER EFFECT: Mouse over hover effect on name text. Animated opacity and font size on text. Background image toggled through a adding and removing a class.
+URL:	http://joshuad.siteground.net/Assignment1a/a2.html
 
 My if/else choice is ____ and it is located at this URL: ____
 
 IF/ELSE: On the click effect, the image source is toggled using an if else conditional.
-URL:
+URL:	http://joshuad.siteground.net/Assignment1a/a2.html
 
 My effect that requires filtering the results is ____ and it is located at this URL: ____
 
 FILTERING EFFECT: On form effect 2, the button selector is filtered with the submit id.
-URL:
+URL:	http://joshuad.siteground.net/Assignment1a/a2.html
 
 Two more effects of my choice are ____ and it is located at this URL: ____
 
 OPTIONAL EFFECT1: Adds background image to header area through a adding and removing a class.
-
 OPTIONAL EFFECT2: When one thumbnail is hovered over, the other thumbnails fade out.
-
-URL:
+URL:	http://joshuad.siteground.net/Assignment1a/a2.html
