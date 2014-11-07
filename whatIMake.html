@@ -11,7 +11,20 @@
 			<script src="js/respond.js"></script>
 			<link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
 			
+<style>
 
+.headerimage {
+    background-image: url('Images/flowers_big.png');
+    background-size: 300px;
+    background-repeat:repeat;}
+
+.footerimage {
+    background-image: url('IxD_icon2.png');
+    background-size: 300px;
+    background-position: center;
+    background-repeat:no-repeat;}
+
+</style>
 
 </head>
 
@@ -49,21 +62,10 @@
       <div class="jumbotron" id="headsup">
       <div class="container">
 
-        <p id="clickme" alt="background icon on mouseover to demonstrate basic jquery syntax">IxD</p>
-
-
-
-        
+        <p id="clickme" >IxD</p>        
 
       </div>
       </div>
-
-
-
-
-
-
-
 
 
 
@@ -132,20 +134,6 @@
         </ul>
         </div>
 
-
-
-
-   
-      
-
-
-    
-
- 
-
-
-
-
 <!-- jumbo container closing -->
 </div></div>
 
@@ -162,40 +150,34 @@
 
 
 
-        <div class="jumbotron collapse"  id="charity" >
-        <div class="container">
-        <div class="row">
+<div class="jumbotron collapse"  id="charity" >
+   <div class="container">
+   <div class="row">
 
 
-<section class="col-md-6 col-sm-12">
-
-<p>
-I do free web design for a charities.
-
-Tell me about your work or nominate a worthy cause.  
-</p>
-<div id="wtf">
-  </div>
-</section>
+      <section class="col-md-6 col-sm-12">
+         <p>
+            I do free web design for a charities.
+            Tell me about your work or nominate a worthy cause.  
+         </p>
+      </section>
 
 
-<div class="col-md-6 col-sm-12">
-<form action="" method="post"  name="charity" id="form"> 
+      <div class="col-md-6 col-sm-12">
+
+         <form action="URL" method="post"  name="charity" id="form"> 
      
+            <div class= "form-group name-group"><input id="name" name="name" type="text" class="form-control" placeholder="Name"></div>
+            <div class= "form-group email-group"><input id="contact" name="contact" type="email" class="form-control" placeholder="Email"></div>
+            <div class= "form-group details-group"><textarea id="details"   class="form-control" rows="5" placeholder="Details"></textarea></div>
+            <button name="Submit" id="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Submit</button>
 
-<div class= "form-group name-group"><input id="name" name="name" type="text" class="form-control" placeholder="Name"></div>
-<div class= "form-group email-group"><input id="contact" name="contact" type="email" class="form-control" placeholder="Email"></div>
+         </form>
 
+      </div >
 
-<div class= "form-group details-group"><textarea id="details" name="details" type="text"   class="form-control" rows="5" placeholder="Details"></textarea></div>
-   
-
-    <button name="Submit" id="submit" type="submit" value="Submit" class="btn btn-primary btn-block">Submit</button>
-</div>
-
-
-</div >
-</div >
+   </div >
+   </div>
 </div>
 
 
@@ -213,176 +195,22 @@ Tell me about your work or nominate a worthy cause.
       </div>
 
       <div class="modal-body">
-        <img src="Images/VE-Header1.gif" alt="...">
+        <img src="Images/VE-Header1.gif" class="img-responsive" alt="animated logo .gif header for Visionary Excellence blog">
       </div>
 
     </div>
   </div>
 </div>
 
-
-
-
-            
-
- 
-
-
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
-
-<script>
-$("#clickme").hover(function(){
-  $("#headsup")
-  .addClass('headerimage');   
-  $( this ).animate({opacity:'0.0'},"fast");
-  },function(){
-  $("#headsup").removeClass('headerimage');
-  $( this )
-  .animate({opacity:'1'},"fast"); 
-});
-</script>
-
-<script>
-$("#bracketed2").hover(function(){
-  $( this ).animate({opacity:'0.0'},"fast");
-  $("#charitylink")
-  .addClass('headerimage').css("background-position", "center");   
-  
-$( this ).animate({ fontSize : '+=1em' })
-
-  },function(){
-  $("#charitylink").removeClass('headerimage');
- 
-  $( this ).animate({ fontSize : '-=1em' })
-    $( this ).animate({opacity:'1'},"fast");
-});
-</script>
-
-
-<script>
-
-
-
-$("#motion").click(function(){
-var src = ($(this).attr('src') === 'spiral.png')
-            ? 'Images/dog.png'
-            : 'spiral.png';
-         $(this).attr('src', src);
-
-
-});
-
-
-var angle = 0;
-
-var interval = setInterval(function(){
-      angle+=3;
-     $("#motion").rotate(angle);
-},50);
-
-$("#motion").click(function() {
-    clearInterval(interval); // stick the clearInterval in a click event
-
-    $("#motion").rotate(0)
-});
-</script>
-
-<script>
-
-
-
-
-        $('#name').focusout(function(){
-                if($('#name').val().length !== 0) {
-                        $('.name-group').attr({
-                                class: 'form-group name-group has-success'
-                        }); // end attr
-                        $('#name').css( "color", "black", 'important' );
-                        $('#name').css( "background-color", "rgb(172, 232, 146)", 'important' );
-                } 
-        }); //end focus out
-
-
-
-                $('#contact').focusout(function(){
-                if($('#contact').val().length !== 0) {
-                        $('.email-group').attr({
-                                class: 'form-group email-group has-success'
-                        }); // end attr
-                        $('#contact').css( "color", "black", 'important' );
-                        $('#contact').css( "background-color", "rgb(172, 232, 146)", 'important' );
-                } 
-        }); //end focus out
-
-
-                $('#details').focusout(function(){
-                if($('#details').val().length !== 0) {
-                        $('.details-group').attr({
-                                class: 'form-group details-group has-success'
-                        }); // end attr
-                        $('#details').css( "color", "black", 'important' );
-                        $('#details').css( "background-color", "rgb(172, 232, 146)", 'important' );
-                } 
-        }); //end focus out
-
-
-
-
-$('button').click(function(submit){
-                if($('#name').val().length == 0) {
-                        $('.name-group').attr({
-                                class: 'form-group name-group has-error'
-                        }); // end attr
-                $('#name').css( "color", "white", 'important' );
-                $('#name').css( "background-color", "rgb(255,64,64)", 'important' );
-                        submit.preventDefault();
-                } else if ($('#contact').val().length == 0) {
-                        $('.email-group').attr({
-                                class: 'form-group email-group has-error'
-                        }); // end attr
-                $('#contact').css( "color", "white", 'important' );
-                $('#contact').css( "background-color", "rgb(255,64,64)", 'important' );
-                        submit.preventDefault();
-                } else if ($('#details').val().length == 0) {
-                        $('.details-group').attr({
-                                class: 'form-group details-group has-error'
-                        }); // end attr
-                $('#details').css( "color", "white", 'important' );
-                $('#details').css( "background-color", "rgb(255,64,64)", 'important' );
-                        submit.preventDefault();
-                } else {
-                        $('#myModal').modal();
-                        submit.preventDefault();
-                }
-        }); //end click
-
-  
-
-
-
-</script>
+<script src="js/a2.js"></script>
 
 
 
 
 
-
-
-
-<style>
-
- .headerimage {
-    background-image: url('IxD_icon2.png');
-    background-size: 300px;
-    background-repeat:no-repeat;
-
-
-
-
-
-</style>
 
 
 
